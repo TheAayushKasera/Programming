@@ -11,3 +11,7 @@ print(lst)
 a=list(choice(lst) for i in range(10))
 print(a)
 print(lst.index("122"))
+ab=list()
+ab.extend([lst,a])
+
+print(ab)
