@@ -12,6 +12,11 @@ a=list(choice(lst) for i in range(10))
 print(a)
 print(lst.index("122"))
 ab=list()
-ab.extend([lst,a])
-
-print(ab)
+abcd=lst.copy()
+print(abcd.pop(0))
+print(abcd)
+print(lst)
+a="A b c d"
+b=a
+b=b.split(' ')
+print(b,a)
