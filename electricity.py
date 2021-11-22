@@ -1,0 +1,12 @@
+unit=int(input())
+charge=0
+if(unit<=50):
+    charge=unit*0.5
+elif(unit<=150):
+    charge=50*0.5+(unit-50)*0.75
+elif(unit<=250):
+    charge=50*0.5+100*0.75+(unit-150)*1.2
+else:
+    charge=50*0.5+100*0.75+100*1.2+(unit-250)*1.5
+charge=charge+charge*(20/100)    
+print(charge)

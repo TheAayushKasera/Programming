@@ -1,0 +1,14 @@
+a=list()
+print(a)
+a.append("A")
+print(a)
+b=["B"]
+print(b)
+a=a+b
+print(a)
+a.append("A")
+print(a)
+c=a.index("A")
+print(c)
+a.append(1)
+print(a)
